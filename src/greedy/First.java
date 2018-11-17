@@ -26,7 +26,6 @@ public class First {
             abs.add(new AB(scanner.nextLong(), scanner.nextLong()));
         }
         System.out.println(new First().count(abs));
-
     }
 
     private String count(List<AB> abList) {
